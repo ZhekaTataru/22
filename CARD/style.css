@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(83, 204, 164);
+}
+.mama{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.card{
+    margin-top: 50px;
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border-radius: 23px;
+    background-image: url(./img/black-background.jpg);
+}
+.chip{
+    padding-bottom: 5px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+}
+.dis{
+    margin-left: 180px;
+}
+
+.chip1{
+    margin-left: 10px;
+    height: 70px;
+}
+.pole{
+    height: 59px;
+    width: 400px;
+    margin-left: 25px;
+    border-radius: 20px;
+    border: #fff solid 2px;
+}
+.card-bottom {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;   
+}
+label {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: rgb(114, 114, 114);
+}
+
+.number-space {
+    width: 90%;
+    height: 50px;
+    border-radius:10px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+}
+
+span {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.holder, .expire {
+    height: 40px;
+}
+
+.holder > p, .expire > p, .expire > p > span {
+    display: flex;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.holder > label, .expire > label
+ {
+    font-size: 1em;
+    margin: 0;
+}
+
+.field {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.date {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+
+
+#number:hover, #name:hover {
+    border: 2px solid rgb(6, 73, 173);
+    border-radius: 10px;
+}
+.date-select, .cvv, .year {
+    width: 25%;
+}
+
+#date, #year, #cvv {
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(187, 187, 187);
+}
+
+option {
+    color: rgb(5, 1, 27);
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
